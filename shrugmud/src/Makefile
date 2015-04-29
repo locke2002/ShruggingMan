@@ -90,6 +90,9 @@ ifdef MULTIPORT
    endif
 endif
 
+#O_DIR_MK:
+#	echo "  Verifying obj dir exists....";
+#	@mkdir -p o
 O_FILES := $(patsubst %.cpp,o/%.o,$(C_FILES))
 
 H_FILES = $(wildcard *.h) 
@@ -103,6 +106,8 @@ else
 endif
 
 all:
+	@echo "Creating dirs....";
+	@mkdir -p o;
 	@echo "Building AFKMud....";
 	$(MAKE) -j2 -s afkmud
 	@echo "Building DNS Resolver...";
@@ -154,6 +159,7 @@ modsclean:
 
 purge:
 	@rm -f o/*.o $(AFKMUD) afkmud.def afkmud.exp core dependencies.d $(RESOLVER) resolver.o
+	@rm -r o
 
 modules:
 	$(MAKE) -C modules
