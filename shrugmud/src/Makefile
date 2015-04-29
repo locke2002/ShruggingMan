@@ -105,7 +105,7 @@ endif
 all:
 	@echo "Building AFKMud....";
 	$(MAKE) -j2 -s afkmud
-	@echo "Buidling DNS Resolver...";
+	@echo "Building DNS Resolver...";
 	$(MAKE) -s resolver
 #	@echo "Building modules...";
 #	$(MAKE) -s -C modules
