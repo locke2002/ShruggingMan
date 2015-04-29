@@ -145,7 +145,7 @@ indentclean:
 resolver: resolver.o
 	@rm -f $(RESOLVER) 
 	$(CC) $(D_FLAGS) -o $(RESOLVER) resolver.o
-	@echo "Done buidling DNS Resolver.";
+	@echo "Done building DNS Resolver.";
 	@chmod g+w $(RESOLVER)
 	@chmod a+x $(RESOLVER)
 	@chmod g+w resolver.o
