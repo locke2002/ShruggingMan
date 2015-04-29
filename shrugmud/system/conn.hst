@@ -1,0 +1,270 @@
+#CONN
+User   Eru
+Host   local-host
+When   07/16 00:38
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   local-host
+When   07/16 00:38
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   local-host
+When   07/16 00:40
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   local-host
+When   07/16 00:50
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   local-host
+When   07/16 22:27
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   local-host
+When   07/16 22:33
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   local-host
+When   07/16 22:43
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   local-host
+When   07/16 23:02
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   local-host
+When   07/16 23:05
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   local-host
+When   07/16 23:10
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   local-host
+When   07/16 23:17
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   local-host
+When   07/16 23:18
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   local-host
+When   07/16 23:20
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   local-host
+When   07/17 03:22
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   local-host
+When   07/17 03:25
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   local-host
+When   07/20 19:53
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   local-host
+When   07/20 23:36
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   local-host
+When   07/22 16:23
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   local-host
+When   07/23 19:23
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   local-host
+When   07/23 19:33
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   local-host
+When   07/23 20:22
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   local-host
+When   07/23 20:25
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Loque
+Host   ip72-222-202-76.ph.ph.cox.net
+When   07/24 02:53
+Level  0
+Type   4
+Invis  0
+End
+
+#CONN
+User   Loque
+Host   ip72-222-202-76.ph.ph.cox.net
+When   07/24 03:02
+Level  2
+Type   1
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   local-host
+When   07/24 04:27
+Level  115
+Type   1
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   ip72-222-202-76.ph.ph.cox.net
+When   07/24 04:28
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   ip72-222-202-76.ph.ph.cox.net
+When   07/24 04:29
+Level  115
+Type   3
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   ip72-222-202-76.ph.ph.cox.net
+When   07/24 04:29
+Level  115
+Type   5
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   ip72-222-202-76.ph.ph.cox.net
+When   07/24 04:32
+Level  115
+Type   3
+Invis  0
+End
+
+#CONN
+User   Eru
+Host   local-host
+When   07/24 04:33
+Level  115
+Type   5
+Invis  0
+End
+

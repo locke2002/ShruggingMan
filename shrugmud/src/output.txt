@@ -1,0 +1,29 @@
+Building AFKMud....
+make -j2 -s afkmud
+  Compiling o/pfiles.o....
+  Compiling o/player.o....
+pfiles.cpp: In function ‘void do_pcrename(char_data*, std::string)’:
+pfiles.cpp:360:25: error: ‘F_OK’ was not declared in this scope
+    if( access( newname, F_OK ) == 0 )
+                         ^
+pfiles.cpp:360:30: error: ‘access’ was not declared in this scope
+    if( access( newname, F_OK ) == 0 )
+                              ^
+pfiles.cpp: In function ‘void fread_pfile(FILE*, time_t, const char*, bool)’:
+pfiles.cpp:628:28: error: ‘unlink’ was not declared in this scope
+          if( unlink( fname ) == -1 )
+                            ^
+pfiles.cpp:652:31: error: ‘unlink’ was not declared in this scope
+             if( unlink( fname ) == -1 )
+                               ^
+pfiles.cpp: In function ‘void do_pfiles(char_data*, std::string)’:
+pfiles.cpp:862:20: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+       system( buf );
+                    ^
+pfiles.cpp: In function ‘void check_pfiles(time_t)’:
+pfiles.cpp:915:23: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+          system( buf );
+                       ^
+make[1]: *** [o/pfiles.o] Error 1
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2
