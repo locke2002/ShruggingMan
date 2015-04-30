@@ -51,7 +51,7 @@ hostname into the parameter addr_str which should be stored in the stack
 if my college degree is still rattling around in my brain somewhere. The
 addr_str variable and the siz limit are both 256. So while the mudstrlcpy
 function is coded in a strange way to fill the dst with nulls out
-to the length of src, that poorly coded strategy shouldn't be causing
+to the value of siz, that seemingly poor strategy shouldn't be causing
 problems as addr_str should have enough space for the limit of 256.
 
 I would be more comfortable replacing mudstrlcpy altogether with the
@@ -61,6 +61,8 @@ the binraries not to be modified after compilation, I don't currently see
 a vulnerability.
 
 That said, I do not fully grok this code and still do not trust it.
+
+I have some theories, but I don't want to spoil it.
 */
 
 #include <cstdio>
