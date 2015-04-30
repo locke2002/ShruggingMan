@@ -37,6 +37,32 @@
  *          shadow@www.dma.be                                              *
  ***************************************************************************/
 
+/*
+locke2002 notes 2015.04.29
+At first glance this code looks deliberately obtuse. It appears to place a
+lot of trust in external libraries to perform as expected. However, I have
+noticed some catches that will protect the local code from unexpected
+behavior. For example, the input is converted to an int before it is 
+passed into resolve_address, so that should limit its size to at least
+the size of int as defined by compiled libraries. Next, it calls 
+gethostbyaddr which if not NULL will pass the hostname into the custom
+mudstrlcpy function, with a size limit of 256. mudstrlcpy will copy the
+hostname into the parameter addr_str which should be stored in the stack
+if my college degree is still rattling around in my brain somewhere. The
+addr_str variable and the siz limit are both 256. So while the mudstrlcpy
+function is coded in a strange way to fill the dst with nulls out
+to the length of src, that poorly coded strategy shouldn't be causing
+problems as addr_str should have enough space for the limit of 256.
+
+I would be more comfortable replacing mudstrlcpy altogether with the
+appropriate standard str copy for this scenario, but if one didn't want
+to trust external libraries, but still trusts the compiler and also trusts
+the binraries not to be modified after compilation, I don't currently see
+a vulnerability.
+
+That said, I do not fully grok this code and still do not trust it.
+*/
+
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
