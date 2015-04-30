@@ -62,7 +62,7 @@ a vulnerability.
 
 That said, I do not fully grok this code and still do not trust it.
 
-I have some theories, but I don't want to spoil it.
+Hmm.
 */
 
 #include <cstdio>
